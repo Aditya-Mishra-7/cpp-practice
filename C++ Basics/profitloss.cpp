@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
-int main ()
+int main()
 {
-    int cp=0, sp=0, profit ;
-    
+    int cp = 0, sp = 0, profit;
+
     cout << "Enter the Cost Price :";
-    cin >> cp ;
+    cin >> cp;
     cout << "Enter the Selling Price :";
-    cin >> sp ;
-    
+    cin >> sp;
+
     if (sp > cp)
     {
         cout << "You are in Profit!\n";
-        profit = sp - cp ;
+        profit = sp - cp;
         cout << "Profit of :" << profit << " is made.";
     }
     else if (cp > sp)
@@ -23,5 +23,4 @@ int main ()
     {
         cout << "No profit no loss.";
     }
-    
 }

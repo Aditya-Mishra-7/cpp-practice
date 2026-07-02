@@ -6,7 +6,7 @@ int main()
     int height = 6;
     double salary = 500000.1;
     char security = 'Z';
-    std::string name="Aditya"; 
+    std::string name = "Aditya";
 
     std::cout << "I am " << name << " Kumar Mishra." << '\n';
     std::cout << "My height is " << height << "feet." << '\n';
